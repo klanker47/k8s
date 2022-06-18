@@ -1,5 +1,6 @@
 # This section includes base Calico installation configuration.
 # For more information, see: https://projectcalico.docs.tigera.io/v3.23/reference/installation/api#operator.tigera.io/v1.Installation
+#inludes fix from https://github.com/projectcalico/calico/issues/6087
 apiVersion: operator.tigera.io/v1
 kind: Installation
 metadata:

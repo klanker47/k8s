@@ -22,6 +22,5 @@ spec:
 apiVersion: operator.tigera.io/v1
 kind: APIServer 
 metadata: 
-  name: calicoapi
+  name: default
 spec: {}
-
